@@ -20,13 +20,13 @@
 ## UI Screenshots
 
 **Landing page**
-![Alt text](https://www.dropbox.com/pri/get/Screenshots/pretezel-landingpage.png?_subject_uid=46753528&w=AADpOpDA_n-UBWxqrU6p2on81m6qXngtVG5uoMJvWBMP5Q "Landing Page")
+<img src='https://www.dropbox.com/pri/get/Screenshots/pretezel-landingpage.png?_subject_uid=46753528&w=AADpOpDA_n-UBWxqrU6p2on81m6qXngtVG5uoMJvWBMP5Q'/>
 
 **Login page**
-![Alt text](https://www.dropbox.com/pri/get/Screenshots/pretzel-login.png?_subject_uid=46753528&w=AADVifVuBmCOFa_42gNAm9okLDquftpQhAql14NHCO1u8A "Login Page")
+<img src='https://www.dropbox.com/pri/get/Screenshots/pretzel-login.png?_subject_uid=46753528&w=AADVifVuBmCOFa_42gNAm9okLDquftpQhAql14NHCO1u8A' />
 
 **Chat page**
-![Alt text](https://www.dropbox.com/pri/get/Screenshots/pretzel-chat.png?_subject_uid=46753528&w=AADEenC67MY7Qct94O19ejgI1CaEM4hStbq-0HyWVdefkw "Chat Page")
+<img src='https://www.dropbox.com/pri/get/Screenshots/pretzel-chat.png?_subject_uid=46753528&w=AADEenC67MY7Qct94O19ejgI1CaEM4hStbq-0HyWVdefkw' />
 
 
 

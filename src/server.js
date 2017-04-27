@@ -77,16 +77,6 @@ app.get('/trends', (req, res) => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
 //ROUTE MUST BE AT THE BOTTOM
 // universal routing and rendering
 app.get('*', (req, res) => {

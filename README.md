@@ -51,11 +51,12 @@ CREATE TABLE messages (ID int NOT NULL, userID int NOT NULL, text TEXT, time DAT
 
 mysql -u root < src/schema.sql (runs sql file)
 ```
-![Pretzel's Landing Page](https://www.dropbox.com/pri/get/Screenshots/pretezel-landingpage.png?_subject_uid=46753528&w=AADpOpDA_n-UBWxqrU6p2on81m6qXngtVG5uoMJvWBMP5Q "Landing Page")
+![Pretzel's Landing Page](https://www.dropbox.com/s/xxylr99w00q9zg6/pretezel-landingpage.png?dl=0 "Landing Page")
 
-![Pretzel's Login](https://www.dropbox.com/pri/get/Screenshots/pretzel-login.png?_subject_uid=46753528&w=AADVifVuBmCOFa_42gNAm9okLDquftpQhAql14NHCO1u8A "Login Page")
+![Pretzel's Login](https://www.dropbox.com/s/nd089v1tns98gsp/pretzel-login.png?dl=0 "Login Page")
 
-![Pretzel's Chat](https://www.dropbox.com/pri/get/Screenshots/pretzel-chat.png?_subject_uid=46753528&w=AADEenC67MY7Qct94O19ejgI1CaEM4hStbq-0HyWVdefkw"Chat Page")
+
+![Pretzel's Chat](https://www.dropbox.com/s/n4svp88dvma7ckn/pretzel-chat.png?dl=0 "Chat Page")
 
 
 

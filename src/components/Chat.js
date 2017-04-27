@@ -34,12 +34,8 @@ export default class Chat extends React.Component {
       alert(e); // error in the above string (in this case, yes)!
     } 
 
-    this.state = {
-      loggedIn: false
-    };
-
     if(googleToken) {
-      username = googleToken.data.given_name;
+      username = googleToken.data.given_name + ' ' + googleToken.data.family_name;
     }
       
      
@@ -50,8 +46,8 @@ export default class Chat extends React.Component {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        maintitle: this.findPath(this.props.location.pathname),
         username: username,
+        maintitle: this.findPath(this.props.location.pathname),
         msgtext: this.state.input,
       })
     })
@@ -103,9 +99,6 @@ export default class Chat extends React.Component {
           <h4>Results</h4>
           <div id="results" style={style}>
             Search Results!
-            {this.state.results.map((result, i) => {
-              return <Results result={result} key={i}/>;
-            })}
           </div>
         </Column>
         <Column width="2/5">

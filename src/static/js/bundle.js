@@ -30386,12 +30386,8 @@ var Chat = function (_React$Component) {
         alert(e); // error in the above string (in this case, yes)!
       }
 
-      this.state = {
-        loggedIn: false
-      };
-
       if (googleToken) {
-        username = googleToken.data.given_name;
+        username = googleToken.data.given_name + ' ' + googleToken.data.family_name;
       }
 
       //i want to post to database when clicked
@@ -30401,8 +30397,8 @@ var Chat = function (_React$Component) {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          maintitle: this.findPath(this.props.location.pathname),
           username: username,
+          maintitle: this.findPath(this.props.location.pathname),
           msgtext: this.state.input
         })
       }).then(function (resp) {
@@ -30464,10 +30460,7 @@ var Chat = function (_React$Component) {
           _react2.default.createElement(
             'div',
             { id: 'results', style: style },
-            'Search Results!',
-            this.state.results.map(function (result, i) {
-              return _react2.default.createElement(Results, { result: result, key: i });
-            })
+            'Search Results!'
           )
         ),
         _react2.default.createElement(
@@ -30618,8 +30611,8 @@ var Layout = function (_React$Component) {
               'div',
               { className: 'navbar-header' },
               _react2.default.createElement(
-                'a',
-                { className: 'navbar-brand', href: '#page-top' },
+                _reactRouter.Link,
+                { className: 'navbar-brand', to: '/' },
                 'Pretzel: Be in the loop'
               )
             ),
@@ -30654,8 +30647,7 @@ var Layout = function (_React$Component) {
               { className: 'app-content' },
               this.props.children
             )
-          ),
-          'This is the index'
+          )
         )
       );
     }

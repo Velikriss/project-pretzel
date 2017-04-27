@@ -20,7 +20,7 @@
 ## UI Screenshots
 
 **Landing page**
-<img src='https://www.dropbox.com/pri/get/Screenshots/pretezel-landingpage.png?_subject_uid=46753528&w=AADpOpDA_n-UBWxqrU6p2on81m6qXngtVG5uoMJvWBMP5Q'/>
+<img src='https://dl.dropboxusercontent.com/content_link/photcvKGrhawG7INQg0etFAeWk8Z1HR80Pdf9TVT3IKemFOH3E1aUMiN1cJvQzS6/file'/>
 
 **Login page**
 <img src='https://www.dropbox.com/pri/get/Screenshots/pretzel-login.png?_subject_uid=46753528&w=AADVifVuBmCOFa_42gNAm9okLDquftpQhAql14NHCO1u8A' />
